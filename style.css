@@ -87,13 +87,10 @@ body {
 }
 
 
-/* ------ TASK CONTAINER ------ */
-
-.task_container {
-    background-color: #FFF;
-    padding: 22px 5px;
-    margin-top: 60px;
-    border-radius: 10px;
-    box-shadow: 0 5px 2px rebeccapurple;
-    width: 100%;
+/* ------ UTILITIES ------ */
+.error {
+    border: 2px solid red !important;
+}
+.error::placeholder {
+    color: red;
 }

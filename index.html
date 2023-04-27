@@ -14,18 +14,18 @@
 
         <div class="header">
             <span>Lista de tarefas</span>
-            <button><i class="bx bxs-check-square"></i></button>
-            <button><i class="bx bxs-trash-alt"></i></button>
+            <button class="checkAllSelected"><i class="bx bxs-check-square"></i></button>
+            <button class="removeAllSelected"><i class="bx bxs-trash-alt"></i></button>
         </div>
 
         <hr>
 
         <div class="new-task-container">
-            <input class="textInsert" type="text">
-            <button><i class="bx bx-plus"></i></button>
+            <input class="textInsert" type="text" placeholder="Tarefa para ser feita...">
+            <button class="newTaskButton"><i class="bx bx-plus"></i></button>
         </div>
 
-        <ul class="task_container"></ul>
+        <ul class="list"></ul>
 
         <!--
             <li> 
@@ -46,6 +46,6 @@
 
     </div>
 
-    <!-- <script src="script.js"></script> -->
+    <script src="./build/index.js"></script>
 </body>
 </html>
