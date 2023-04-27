@@ -8,4 +8,14 @@ const list = document.querySelector<HTMLUListElement>('.list')
 
 addTaskButton?.addEventListener('click', e => {
     e.preventDefault()
+
+    if(input?.value === '' || input?.value === null) return
+
+    const task = {
+        id: crypto.randomUUID(),
+        title: input?.value,
+        completed: false,
+        createdAt: new Date()
+
+    }
 })
