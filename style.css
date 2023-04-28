@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
-    background: linear-gradient(90deg, rgba(00, 00, 00, 1) 0%, rgb(43, 42, 42) 100%);
+    background: linear-gradient(90deg, rgba(00, 00, 00, 1) 0%, rgb(100, 99, 99) 100%);
     color: white;
     display: flex;
     align-items: center;
@@ -55,7 +55,6 @@ body {
     align-items: center;
     width: 100%;
     margin-top: 1.5rem;
-    min-width: 500px;
 }
 .new-task-container input {
     flex: 3;
@@ -93,4 +92,32 @@ body {
 }
 .error::placeholder {
     color: red;
+}
+
+/* ------ LI ------ */
+li {
+    color: black;
+    list-style: none;
+    background-color: #FFF;
+    padding: 10px 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 2px rebeccapurple;
+    width: 100%;
+}
+
+li label {
+    
+}
+
+li label input {
+    margin: 0.5rem;
+}
+
+li label span {
+    word-break: break-all;
+}
+
+li label button {
+    
 }
